@@ -67,7 +67,7 @@ function hitTarget(player, target) {
   target.setTint(0xff0000);
   collidedText.setText('🎯 Collision detected!');
   // Remove tint after short delay
-  player.scene.time.delayedCall(500, () => target.clearTint());
+  player.scene.time.delayedCall(5, () => target.clearTint());
 }
 </script>
 </body>
