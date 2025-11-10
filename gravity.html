@@ -53,7 +53,7 @@ function create() {
 
 function update() {
 
-  player.setVelocity(0);
+  player.setVelocityX(0);
 
   // Jump if on ground and up key pressed
   if ((cursors.up.isDown || wKey.isDown) && player.body.touching.down) {
