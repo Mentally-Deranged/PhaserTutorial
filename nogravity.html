@@ -58,12 +58,12 @@ function update() {
     player.setVelocityY(200);
   }
    // Move left
-  if (cursors.up.isDown || this.aKey.isDown) {
+  if (cursors.left.isDown || this.aKey.isDown) {
     player.setVelocityX(-200);
   }
 
   // Move down
-  if (cursors.down.isDown || this.dKey.isDown) {
+  if (cursors.right.isDown || this.dKey.isDown) {
     player.setVelocityX(200);
   }
 }
