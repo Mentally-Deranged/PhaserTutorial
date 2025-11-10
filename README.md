@@ -1,2 +1,2 @@
-# PhaserTutorial
-Examples for phaser game
+# NEAPhaser
+Phaser basics
